@@ -1,0 +1,13 @@
+OOP nedir? Ne amaçlı kullanılır?
+	Nesne yönelimli programlama, kalıtım, gizleme, polimorfizm vb. gibi gerçek dünya varlıklarını programlamada uygulamayı amaçlar. OOP'nin temel amacı, verileri ve bunlar üzerinde çalışan işlevleri birbirine bağlayarak kodun başka hiçbir bölümünün bu işlev dışında bu verilere erişememesidir. 
+
+Polymorphism ne amaçlı kullanılır?
+	Polimorfizm, tek bir eylemi farklı şekillerde gerçekleştirmemizi sağlar. Başka bir deyişle, polimorfizm, bir arabirim tanımlamanıza ve birden çok uygulamaya sahip olmanıza olanak tanır.
+
+Bir metodun private, protected ya da public olması kavramlarını açıklayınız.
+	Bir metod veya değişken public olarak tanımladığında o üyeye ilgili sınıfın her yerinden erişebilirsiniz. Aynı zamanda sınıftan türeyen bir sınıf içersinden de erişilebilir.
+	Private üyelere o sınıf dışından herhangi bir şekilde erişilemez ve bu üyeler kalıtım yoluyla aktarılmaz. Private olarak tanımlanan değişken ve fonksiyonlar sadece o sınıfın kendi metotları tarafından kullanılabilir.
+	Protected aslında private e benzer. Protected özelliği atanan bir değişken veya metot, sadece sınıf içerisinden veya türetilen bir sınıf içerisinden erişilebilir. Yani bir sınıf extend ettiği sınıfın protected üyelerine erişebilir ama private üyelerine erişemez.
+
+(Abstraction) Soyutlama nedir?
+Soyutlama, bir sınıfa veya metoda temel görevlerin tanımlanması, detayların ise tanımlanmaması demektir. Temel olarak bir soruna ait çözüme giderken kullanılacak yöntemlerin, ilk etapta daha genel basit ve soyut bir tanımını yapmaktır.
