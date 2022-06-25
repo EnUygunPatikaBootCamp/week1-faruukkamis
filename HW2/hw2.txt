@@ -1,0 +1,9 @@
+tail: Linux tail komutunun temel işlevi, bir dosyanın sonunun çıktısını almaktır. Tipik olarak, bir dosyaya eklenen yeni veriler onun kuyruğunda biter. Bu nedenle, Linux tail komutu bir dosyaya yeni veri eklenip eklenmediğini kontrol etmemizi sağlar.
+
+cat: bir dosyanın içeriğini standart çıktı akışına yazdırmaktır. Bunun dışında cat komutu, bir dosyaya bazı metinleri yazmamıza da izin verir.
+
+sudo: Sudo komutu, programları başka bir kullanıcının güvenlik ayrıcalıklarıyla (varsayılan olarak süper kullanıcı olarak) çalıştırmanıza izin verir.
+
+touch: Dokunma komutunun birincil işlevi timestampi değiştirmektir. Birincil işlevi olmasa da, genellikle dosya oluşturmak için kullanılır.  Herhangi bir dosya için değişiklik ve erişim zamanını değiştirebilir. touch komutu, yalnızca dosya zaten mevcut değilse bir dosya oluşturur.
+
+mkdir: Kullanıcıların yeni dizinler oluşturmasına izin verir. mkdir "dizin oluştur" anlamına gelir.
